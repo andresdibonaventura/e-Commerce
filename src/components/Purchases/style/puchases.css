@@ -1,0 +1,31 @@
+.purchase-card{
+    padding: 50px;
+    border: solid 1px black;
+    margin-top: 40px;
+    max-width: 90%;
+    /* border-radius: 3%; */
+    background-color: rgb(19, 18, 18);
+    color: white;
+    margin-left: 5%;
+  
+}
+
+.individualProduct{
+    display: flex;
+    margin-top: 3%;
+}
+
+.purchasetitle{
+display: flex;
+
+}
+
+.purchasequantity{
+    position: absolute;
+    right: 500px;
+}
+
+.purchaseprice{
+   position: absolute;
+   right: 100px;
+}

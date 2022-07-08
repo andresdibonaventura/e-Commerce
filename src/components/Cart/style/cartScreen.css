@@ -1,0 +1,26 @@
+.cartProductss{
+    border: solid 1px black;
+    max-width: 100%;
+    padding: 60px;
+    margin-top: 50px;
+    background-color: rgb(12, 12, 58);
+    color: white;
+}
+
+.productBrand{
+    margin-bottom: 40px;
+}
+
+.productTitleCart{
+    font-size: 1.5rem;
+}
+
+.buton{
+   background-color:  black;
+   color: white;
+
+   border: solid 1px rgb(12, 12, 58);
+    margin: auto;
+    padding: 20px;
+    
+}
