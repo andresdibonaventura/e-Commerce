@@ -88,3 +88,21 @@ padding: 20px;
 .search{
   padding: 6px;
 }
+
+
+.category{
+  height: 70px;
+  width: 170px;
+  border: solid 1px black;
+ border-radius: 10px;
+position: relative;
+z-index: 99;
+ 
+}
+
+.categories{
+  display: flex;
+  gap: 60px;
+  margin-top: 70px;
+  justify-content: center;
+}

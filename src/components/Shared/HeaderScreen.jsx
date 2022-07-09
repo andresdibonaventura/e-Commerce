@@ -13,7 +13,7 @@ const HeaderScreen = () => {
   return (
     <header className="header">
       <h1 className="header__title">
-        <Link to='/'>e-commerce  <i class="fa-brands fa-xing"></i></Link>
+        <Link to='/'>e-commerce <span className="imgtitle"><img  src="./src/img/triangle pestana.png" alt="" /> </span> </Link>
       </h1>
       <div onClick={clickMenuHam} className="header__menuham">
         <i className="fa-solid fa-bars"></i>

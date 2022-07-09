@@ -3,6 +3,7 @@ import { useEffect } from "react"
 import { useDispatch } from "react-redux"
 import { Route, Routes } from "react-router-dom"
 import CartScreen from "./components/Cart/CartScreen"
+import Filtter from "./components/Home/Filtter"
 import HomeScreen from "./components/Home/HomeScreen"
 import LoginScreen from "./components/Login/LoginScreen"
 import ProductScreen from "./components/Products/ProductScreen"
@@ -47,7 +48,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomeScreen />} />
           <Route path='/login' element={<LoginScreen />} />
-
+          <Route path="/category/:name" element={<HomeScreen />}/>
           <Route element={<ProtectedRoutes />}>
             <Route path="/cart" element={<CartScreen />} />
             <Route path="/purchases" element={<PurchasesScreen />} />

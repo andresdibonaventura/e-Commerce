@@ -5,10 +5,21 @@
   align-items: center;
   position: relative;
   z-index: 2;
+  color: rgb(12, 12, 58);
 }
 .header__title {
   color: var(--secondary-color);
 }
+
+.imgtitle img{
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  color: rgb(12, 12, 58);
+  filter: brightness(50%);
+  opacity: 6;
+}
+
 .header__menuham{
   font-size: 1.4rem;
   position: fixed;

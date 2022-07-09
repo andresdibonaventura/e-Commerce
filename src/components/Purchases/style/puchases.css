@@ -4,9 +4,10 @@
     margin-top: 40px;
     max-width: 90%;
     /* border-radius: 3%; */
-    background-color: rgb(19, 18, 18);
+    background-color: rgb(12, 12, 58);
     color: white;
     margin-left: 5%;
+    border-radius: 50px;
   
 }
 
@@ -15,8 +16,8 @@
     margin-top: 3%;
 }
 
-.purchasetitle{
-display: flex;
+.purchases__title{
+text-align: center;
 
 }
 
