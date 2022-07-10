@@ -26,7 +26,7 @@ const Filtter = () => {
     }
   return (
     
-    <Dropdown className='filterPos' isOpen={dropdown} toggle={openCloseDropdown}>
+    <Dropdown >
         {/* <DropdownToggle className="filter"></DropdownToggle> */}
         <DropdownMenu className='categories'>
           <DropdownItem className='category'  onClick={clickCard} >Smartphones</DropdownItem>
